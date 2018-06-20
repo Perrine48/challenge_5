@@ -54,17 +54,22 @@ footer {
  img {
   width: 100%;
   height: auto;
-
 }
-.image1, .image2 {
+
+.image1, .image2, .image3 {
   margin: 0;
   padding: 0;
+  height: 25em;
 }
 
+.relou {
+    overflow: hidden;
+}
 
 .title {
   color: white;
   margin: 2em 1em;
+  z-index: 2;
 }
 
 h2 {
