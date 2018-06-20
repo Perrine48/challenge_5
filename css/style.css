@@ -1,3 +1,6 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
 nav {
     background-color: black;
 }
@@ -44,9 +47,35 @@ footer {
 }
 
 .test {
-    height: 200px;
+    height: auto;
     border: green 2px solid;
 }
+
+ img {
+  width: 100%;
+  height: auto;
+
+}
+.image1, .image2 {
+  margin: 0;
+  padding: 0;
+}
+
+
+.title {
+  color: white;
+  margin: 2em 1em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+
+
+
 
 
 
@@ -57,6 +86,5 @@ footer {
 .home {
   margin-top: 1em;
   border-top: solid 1px gray;
-}
   }
 }
