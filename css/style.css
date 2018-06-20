@@ -10,6 +10,7 @@ nav {
 .navbar {
   line-height: 4em;
   padding: 0;
+  width: 100%;
 }
 
 a:hover {
@@ -37,6 +38,17 @@ nav a {
 .navbar-nav {
 padding-left: 1em;
 }
+
+footer {
+    width: 100%;
+}
+
+.test {
+    height: 200px;
+    border: green 2px solid;
+}
+
+
 
 @media screen and (max-width: 990px) {
 .nav-link {
