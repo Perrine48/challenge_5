@@ -2,8 +2,14 @@ nav {
     background-color: black;
 }
 
-nav a {
-    color: white;
+.search {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.navbar {
+  line-height: 4em;
+  padding: 0;
 }
 
 a:hover {
@@ -17,8 +23,28 @@ button {
 nav a {
   padding: 0.5em;
   font-size: 1.25em;
+  color: white;
 }
 
 .navbar-dark .navbar-nav .nav-link{
     color: white;
+}
+
+.list-group-item {
+  background-color: black;
+}
+
+.navbar-nav {
+padding-left: 1em;
+}
+
+@media screen and (max-width: 990px) {
+.nav-link {
+  border-bottom: solid 1px gray;
+}
+.home {
+  margin-top: 1em;
+  border-top: solid 1px gray;
+}
+  }
 }
